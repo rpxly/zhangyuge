@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>摄影师 - 章鱼哥 | 个人作品集</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <span class="brand-name">Liu Yang
+                </span>
+            </div>
+            <div class="navbar-menu">
+                <a href="#home" class="nav-link">首页</a>
+                <a href="#interests" class="nav-link">兴趣展示</a>
+                <a href="#about" class="nav-link">关于我</a>
+                <a href="#community" class="nav-link">寻找同频人</a>
+                <a href="#contact" class="nav-link">联系</a>
+            </div>
+            <div class="navbar-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 英雄区域 -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">章鱼哥</h1>
+            <p class="hero-subtitle">生活探险家 | 摄影爱好者</p>
+            <p class="hero-description">和同样温度的人做想做的事</p>
+            <div class="hero-buttons">
+                <a href="#interests" class="btn btn-primary">
+                    <span class="btn-glow"></span>
+                    我的兴趣
+                </a>
+                <a href="#community" class="btn btn-secondary">
+                    <span class="btn-glow"></span>
+                    寻找同频人
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 兴趣展示区域 -->
+    <section id="interests" class="portfolio">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">我的兴趣</h2>
+                <p class="section-subtitle">探索我热爱的事物</p>
+            </div>
+            
+            <!-- 兴趣分类筛选 -->
+            <div class="portfolio-filter fade-in">
+                <button class="filter-btn active" data-filter="all">全部</button>
+                <button class="filter-btn" data-filter="户外探险">户外探险</button>
+                <button class="filter-btn" data-filter="艺术创作">艺术创作</button>
+                <button class="filter-btn" data-filter="科技探索">科技探索</button>
+                <button class="filter-btn" data-filter="阅读写作">阅读写作</button>
+                <button class="filter-btn" data-filter="美食烹饪">美食烹饪</button>
+                <button class="filter-btn" data-filter="音乐欣赏">音乐欣赏</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <!-- 作品项目 -->
+                <div class="portfolio-item fade-in" data-category="户外探险">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=800&h=600&fit=crop" alt="登山探险">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3 class="portfolio-title">高山探险</h3>
+                                <p class="portfolio-category">户外探险</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item fade-in" data-category="艺术创作">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&h=600&fit=crop" alt="绘画创作">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3 class="portfolio-title">绘画艺术</h3>
+                                <p class="portfolio-category">艺术创作</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item fade-in" data-category="户外探险">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=800&h=600&fit=crop" alt="城市建筑探索">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3 class="portfolio-title">城市探索</h3>
+                                <p class="portfolio-category">户外探险</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item fade-in" data-category="科技探索">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&h=600&fit=crop" alt="科技产品">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3 class="portfolio-title">科技产品体验</h3>
+                                <p class="portfolio-category">科技探索</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item fade-in" data-category="阅读写作">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=800&h=600&fit=crop" alt="阅读写作">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3 class="portfolio-title">阅读时光</h3>
+                                <p class="portfolio-category">阅读写作</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item fade-in" data-category="美食烹饪">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&h=600&fit=crop" alt="美食烹饪">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3 class="portfolio-title">美食烹饪</h3>
+                                <p class="portfolio-category">美食烹饪</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我区域 -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image slide-in-left">
+                    <img src="img/sy.jpg" alt="摄影师章鱼哥">
+                </div>
+                <div class="about-text slide-in-right">
+                    <div class="section-header">
+                        <h2 class="section-title">关于我</h2>
+                    </div>
+                    <p class="about-description">
+                        我是章鱼哥，一个热爱生活、充满好奇心的生活探险家。我相信人生的意义在于不断探索和体验，
+                        无论是攀登高山、创作艺术，还是探索科技的边界，我都乐在其中。
+                    </p>
+                    <p class="about-description">
+                        我希望通过这个平台展示我的兴趣爱好，更重要的是，寻找那些与我志同道合的同频人。
+                        我相信，当有趣的灵魂相遇，会碰撞出更加精彩的火花。
+                    </p>
+                    
+                    <div class="about-info">
+                        <div class="info-item">
+                            <i class="fas fa-heart"></i>
+                            <span class="info-label">兴趣爱好</span>
+                            <span class="info-value">6+</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-mountain"></i>
+                            <span class="info-label">登山经历</span>
+                            <span class="info-value">15次</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-book"></i>
+                            <span class="info-label">阅读书籍</span>
+                            <span class="info-value">200+</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-users"></i>
+                            <span class="info-label">同频好友</span>
+                            <span class="info-value">期待更多</span>
+                        </div>
+                    </div>
+                    
+                    <div class="about-buttons">
+                        <a href="#community" class="btn btn-primary">寻找同频人</a>
+                        <a href="#interests" class="btn btn-secondary">查看我的兴趣</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 寻找同频人区域 -->
+    <section id="community" class="community">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title"><i class="fas fa-users"></i> 寻找同频人</h2>
+                <p class="section-subtitle">与有趣的灵魂相遇</p>
+            </div>
+            
+            <div class="community-content">
+                <div class="community-text fade-in">
+                    <p class="community-intro">
+                        <i class="fas fa-heart"></i> 与志同道合的人相遇，共同探索世界的美好
+                    </p>
+                    
+                    <div class="community-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-mountain"></i>
+                            <span>户外探险爱好者</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-palette"></i>
+                            <span>艺术创作者</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>科技探索者</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-book"></i>
+                            <span>阅读思考者</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-utensils"></i>
+                            <span>美食爱好者</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-music"></i>
+                            <span>音乐欣赏者</span>
+                        </div>
+                    </div>
+                    
+                    <p class="community-invitation">
+                        <i class="fas fa-handshake"></i> 期待与你相遇，一起开启精彩旅程
+                    </p>
+                </div>
+                
+                <div class="community-image fade-in">
+                    <img src="img/tp.jpg" alt="寻找同频人">
+                </div>
+            </div>
+            
+            <div class="community-actions fade-in">
+                <a href="#contact" class="btn btn-primary">
+                    <span class="btn-glow"></span>
+                    <i class="fas fa-envelope"></i> 立即联系我
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 社交平台区域 -->
+    <section id="contact" class="social-platforms">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">关注我</h2>
+                <p class="section-subtitle">扫描二维码，与我成为好友</p>
+            </div>
+            
+            <div class="social-container">
+                <!-- 微信 -->
+                <div class="social-item">
+                    <div class="social-icon">
+                        <i class="fab fa-weixin"></i>
+                    </div>
+                    <div class="social-name">微信</div>
+                    <div class="social-qrcode">
+                        <img data-src="img/wx.jpg" alt="微信二维码">
+                        <div class="qrcode-label">微信扫一扫</div>
+                    </div>
+                </div>
+                
+                <!-- 抖音 -->
+                <div class="social-item">
+                    <div class="social-icon">
+                        <i class="fab fa-tiktok"></i>
+                    </div>
+                    <div class="social-name">抖音</div>
+                    <div class="social-qrcode">
+                        <img data-src="img/dy.jpg" alt="抖音二维码">
+                        <div class="qrcode-label">抖音扫一扫</div>
+                    </div>
+                </div>
+                
+                <!-- 小红书 -->
+                <div class="social-item">
+                    <div class="social-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <div class="social-name">小红书</div>
+                    <div class="social-qrcode">
+                        <img data-src="img/xhs.jpg" alt="小红书二维码">
+                        <div class="qrcode-label">小红书扫一扫</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+            <div class="footer-info">
+            <h3>章鱼哥</h3>
+            <p>生活探险家 | 兴趣爱好者</p>
+        </div>      
+            <div class="footer-social">
+                <a href="#" class="social-link">抖音：是章鱼哥呀！</a>
+                <a href="#" class="social-link">小红书：是章鱼哥呀！</a>
+                <a href="#" class="social-link">公众号：是章鱼哥呀！</a>
+            </div>
+        </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 章鱼哥的生活探险. 保留所有权利.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
